@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtreleme</title>
+    <link rel="stylesheet" href="assets/css/filtre.css">
+    <script src="assets/js/filtre.js" defer></script>
+</head>
+<body>
+    <form id="filterForm">
+        Marka: <input type="text" list="brand-list" name="brand">
+        <datalist id="brand-list"></datalist>
+       <br>
+       Kategori: <input type="text" list="category-list" name="category">
+       <datalist id="category-list"></datalist>
+       <br>
+       <button>Filtrele</button>
+    </form>
+
+    <ul class="filteredData"></ul>
+</body>
+</html>
